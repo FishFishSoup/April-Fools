@@ -1,0 +1,8 @@
+in[2]:import time
+...:from progress.bar import Bar
+...:
+bar=Bar('Processing',max=100,fill='$',suffix='%(precent)d%%')
+...:for i 9n range(100):
+...:time.sleep(0.1)
+...:bar.finish()
+processing|$$$$$$$$$$$$$$                   |0.25
